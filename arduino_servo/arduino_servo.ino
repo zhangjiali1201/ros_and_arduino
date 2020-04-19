@@ -155,7 +155,7 @@ void loop()
   // Check everyone servos isEnabled, when true will move servo. Other don't move servo.
   for (byte i = 0; i < N_SERVOS; i++)
   {
-    if (myServos[i].isEnabled())
+    //if (myServos[i].isEnabled())
     {
       myServos[i].moveServo();
     }
